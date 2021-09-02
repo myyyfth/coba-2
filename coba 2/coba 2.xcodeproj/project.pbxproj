@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8670AB0425E60A18006EA960 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8670AB0325E60A18006EA960 /* Preview Assets.xcassets */; };
+		86E9B3D725E74D4C0014FE6C /* ThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E9B3D625E74D4C0014FE6C /* ThemeModel.swift */; };
+		86E9B3DF25E74D5D0014FE6C /* ThemeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E9B3DE25E74D5D0014FE6C /* ThemeData.swift */; };
+		86E9B3E425E74D690014FE6C /* ThemeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E9B3E325E74D690014FE6C /* ThemeSettings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8670AB0E25E60A18006EA960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 865F79F125DB756C0025F69D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8670AAF425E60A16006EA960;
+			remoteInfo = coba2;
+		};
+		8670AB1925E60A19006EA960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 865F79F125DB756C0025F69D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8670AAF425E60A16006EA960;
+			remoteInfo = coba2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		861BAAB625E35AC200AD6C5F /* FormRowStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowStaticView.swift; sourceTree = "<group>"; };
+		861BAABB25E35AD700AD6C5F /* FormRowLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowLinkView.swift; sourceTree = "<group>"; };
+		861BAAC025E35AFC00AD6C5F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		863C0B5B25DE16F200F6BE81 /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
+		865F79FC25DB756C0025F69D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		865F79FE25DB756C0025F69D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		865F7A0025DB756C0025F69D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		865F7A0325DB756C0025F69D /* coba_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coba_2.xcdatamodel; sourceTree = "<group>"; };
+		865F7A0525DB756E0025F69D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		865F7A0B25DB756E0025F69D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		865F7A0D25DB756E0025F69D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865F7A3B25DB76220025F69D /* AddTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoView.swift; sourceTree = "<group>"; };
+		8670AAD625E604C6006EA960 /* Blue Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Blue Dark.png"; path = "../../../../icon/Blue Dark.png"; sourceTree = "<group>"; };
+		8670AADB25E604CC006EA960 /* Blue Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Blue Light.png"; path = "../../../../icon/Blue Light.png"; sourceTree = "<group>"; };
+		8670AAE025E604D5006EA960 /* Pink Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pink Light.png"; path = "../../../../icon/Pink Light.png"; sourceTree = "<group>"; };
+		8670AAE125E604D5006EA960 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Blue.png; path = ../../../../icon/Blue.png; sourceTree = "<group>"; };
+		8670AAE225E604D5006EA960 /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Green.png; path = ../../../../icon/Green.png; sourceTree = "<group>"; };
+		8670AAE325E604D5006EA960 /* Pink Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pink Dark.png"; path = "../../../../icon/Pink Dark.png"; sourceTree = "<group>"; };
+		8670AAE425E604D5006EA960 /* Pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pink.png; path = ../../../../icon/Pink.png; sourceTree = "<group>"; };
+		8670AAE525E604D5006EA960 /* Green Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Green Dark.png"; path = "../../../../icon/Green Dark.png"; sourceTree = "<group>"; };
+		8670AAE625E604D5006EA960 /* Green Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Green Light.png"; path = "../../../../icon/Green Light.png"; sourceTree = "<group>"; };
+		8670AAF525E60A16006EA960 /* coba2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coba2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8670AB0325E60A18006EA960 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8670AB0D25E60A18006EA960 /* coba2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coba2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8670AB1825E60A19006EA960 /* coba2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coba2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E9B3D625E74D4C0014FE6C /* ThemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeModel.swift; sourceTree = "<group>"; };
+		86E9B3DE25E74D5D0014FE6C /* ThemeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeData.swift; sourceTree = "<group>"; };
+		86E9B3E325E74D690014FE6C /* ThemeSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSettings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8670AAF225E60A16006EA960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8670AB0A25E60A18006EA960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8670AB1525E60A19006EA960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		865F79F025DB756C0025F69D = {
+			isa = PBXGroup;
+			children = (
+				865F7A3A25DB76080025F69D /* TodoView */,
+				865F79FA25DB756C0025F69D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		865F79FA25DB756C0025F69D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8670AAF525E60A16006EA960 /* coba2.app */,
+				8670AB0D25E60A18006EA960 /* coba2Tests.xctest */,
+				8670AB1825E60A19006EA960 /* coba2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		865F79FB25DB756C0025F69D /* coba 2 */ = {
+			isa = PBXGroup;
+			children = (
+				865F7A3B25DB76220025F69D /* AddTodoView.swift */,
+				865F79FC25DB756C0025F69D /* AppDelegate.swift */,
+				865F79FE25DB756C0025F69D /* SceneDelegate.swift */,
+				865F7A0025DB756C0025F69D /* ContentView.swift */,
+				865F7A0525DB756E0025F69D /* Assets.xcassets */,
+				865F7A0A25DB756E0025F69D /* LaunchScreen.storyboard */,
+				865F7A0D25DB756E0025F69D /* Info.plist */,
+				865F7A0225DB756C0025F69D /* coba_2.xcdatamodeld */,
+				863C0B5B25DE16F200F6BE81 /* EmptyListView.swift */,
+				861BAAB625E35AC200AD6C5F /* FormRowStaticView.swift */,
+				861BAABB25E35AD700AD6C5F /* FormRowLinkView.swift */,
+				861BAAC025E35AFC00AD6C5F /* SettingsView.swift */,
+				8670AB0225E60A18006EA960 /* Preview Content */,
+			);
+			path = "coba 2";
+			sourceTree = "<group>";
+		};
+		865F7A3A25DB76080025F69D /* TodoView */ = {
+			isa = PBXGroup;
+			children = (
+				86E9B3D525E74D310014FE6C /* Theme */,
+				8670AACA25E60494006EA960 /* Icons */,
+				865F79FB25DB756C0025F69D /* coba 2 */,
+			);
+			path = TodoView;
+			sourceTree = "<group>";
+		};
+		8670AACA25E60494006EA960 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				8670AAD625E604C6006EA960 /* Blue Dark.png */,
+				8670AADB25E604CC006EA960 /* Blue Light.png */,
+				8670AAE125E604D5006EA960 /* Blue.png */,
+				8670AAE525E604D5006EA960 /* Green Dark.png */,
+				8670AAE625E604D5006EA960 /* Green Light.png */,
+				8670AAE225E604D5006EA960 /* Green.png */,
+				8670AAE325E604D5006EA960 /* Pink Dark.png */,
+				8670AAE025E604D5006EA960 /* Pink Light.png */,
+				8670AAE425E604D5006EA960 /* Pink.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		8670AB0225E60A18006EA960 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8670AB0325E60A18006EA960 /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "../../coba2/Preview Content";
+			sourceTree = "<group>";
+		};
+		86E9B3D525E74D310014FE6C /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				86E9B3D625E74D4C0014FE6C /* ThemeModel.swift */,
+				86E9B3DE25E74D5D0014FE6C /* ThemeData.swift */,
+				86E9B3E325E74D690014FE6C /* ThemeSettings.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8670AAF425E60A16006EA960 /* coba2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8670AB1F25E60A19006EA960 /* Build configuration list for PBXNativeTarget "coba2" */;
+			buildPhases = (
+				8670AAF125E60A16006EA960 /* Sources */,
+				8670AAF225E60A16006EA960 /* Frameworks */,
+				8670AAF325E60A16006EA960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coba2;
+			productName = coba2;
+			productReference = 8670AAF525E60A16006EA960 /* coba2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8670AB0C25E60A18006EA960 /* coba2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8670AB2225E60A19006EA960 /* Build configuration list for PBXNativeTarget "coba2Tests" */;
+			buildPhases = (
+				8670AB0925E60A18006EA960 /* Sources */,
+				8670AB0A25E60A18006EA960 /* Frameworks */,
+				8670AB0B25E60A18006EA960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8670AB0F25E60A18006EA960 /* PBXTargetDependency */,
+			);
+			name = coba2Tests;
+			productName = coba2Tests;
+			productReference = 8670AB0D25E60A18006EA960 /* coba2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8670AB1725E60A19006EA960 /* coba2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8670AB2525E60A19006EA960 /* Build configuration list for PBXNativeTarget "coba2UITests" */;
+			buildPhases = (
+				8670AB1425E60A19006EA960 /* Sources */,
+				8670AB1525E60A19006EA960 /* Frameworks */,
+				8670AB1625E60A19006EA960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8670AB1A25E60A19006EA960 /* PBXTargetDependency */,
+			);
+			name = coba2UITests;
+			productName = coba2UITests;
+			productReference = 8670AB1825E60A19006EA960 /* coba2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		865F79F125DB756C0025F69D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					8670AAF425E60A16006EA960 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8670AB0C25E60A18006EA960 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 8670AAF425E60A16006EA960;
+					};
+					8670AB1725E60A19006EA960 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 8670AAF425E60A16006EA960;
+					};
+				};
+			};
+			buildConfigurationList = 865F79F425DB756C0025F69D /* Build configuration list for PBXProject "coba 2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 865F79F025DB756C0025F69D;
+			productRefGroup = 865F79FA25DB756C0025F69D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8670AAF425E60A16006EA960 /* coba2 */,
+				8670AB0C25E60A18006EA960 /* coba2Tests */,
+				8670AB1725E60A19006EA960 /* coba2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8670AAF325E60A16006EA960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8670AB0425E60A18006EA960 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8670AB0B25E60A18006EA960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8670AB1625E60A19006EA960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8670AAF125E60A16006EA960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E9B3D725E74D4C0014FE6C /* ThemeModel.swift in Sources */,
+				86E9B3DF25E74D5D0014FE6C /* ThemeData.swift in Sources */,
+				86E9B3E425E74D690014FE6C /* ThemeSettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8670AB0925E60A18006EA960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8670AB1425E60A19006EA960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8670AB0F25E60A18006EA960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8670AAF425E60A16006EA960 /* coba2 */;
+			targetProxy = 8670AB0E25E60A18006EA960 /* PBXContainerItemProxy */;
+		};
+		8670AB1A25E60A19006EA960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8670AAF425E60A16006EA960 /* coba2 */;
+			targetProxy = 8670AB1925E60A19006EA960 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		865F7A0A25DB756E0025F69D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				865F7A0B25DB756E0025F69D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		865F7A2425DB756F0025F69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		865F7A2525DB756F0025F69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8670AB2025E60A19006EA960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"coba2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = coba2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.coba2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8670AB2125E60A19006EA960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"coba2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = coba2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.coba2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8670AB2325E60A19006EA960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = coba2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.coba2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coba2.app/coba2";
+			};
+			name = Debug;
+		};
+		8670AB2425E60A19006EA960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = coba2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.coba2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coba2.app/coba2";
+			};
+			name = Release;
+		};
+		8670AB2625E60A19006EA960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = coba2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.coba2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coba2;
+			};
+			name = Debug;
+		};
+		8670AB2725E60A19006EA960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = coba2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.coba2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coba2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		865F79F425DB756C0025F69D /* Build configuration list for PBXProject "coba 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865F7A2425DB756F0025F69D /* Debug */,
+				865F7A2525DB756F0025F69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8670AB1F25E60A19006EA960 /* Build configuration list for PBXNativeTarget "coba2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8670AB2025E60A19006EA960 /* Debug */,
+				8670AB2125E60A19006EA960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8670AB2225E60A19006EA960 /* Build configuration list for PBXNativeTarget "coba2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8670AB2325E60A19006EA960 /* Debug */,
+				8670AB2425E60A19006EA960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8670AB2525E60A19006EA960 /* Build configuration list for PBXNativeTarget "coba2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8670AB2625E60A19006EA960 /* Debug */,
+				8670AB2725E60A19006EA960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		865F7A0225DB756C0025F69D /* coba_2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				865F7A0325DB756C0025F69D /* coba_2.xcdatamodel */,
+			);
+			currentVersion = 865F7A0325DB756C0025F69D /* coba_2.xcdatamodel */;
+			path = coba_2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 865F79F125DB756C0025F69D /* Project object */;
+}
